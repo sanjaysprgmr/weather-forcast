@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.5s ease-in-out;
+}
+
+.sunny {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+.clouds {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+.rain {
+  background: linear-gradient(to right, #5f72bd, #9b23ea);
+}
+.clear {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+}
